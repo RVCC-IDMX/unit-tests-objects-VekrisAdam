@@ -30,7 +30,7 @@
      white: 9,
   };
 
-    Here's a Lookup Table for the Multipliers. Each color represents a the multiplication factor
+    Here's a Lookup Table for the Multipliers. Each color represents the multiplication factor
     that is used with the value from the first 2 bands.
 
     const multiplierCodes = {
@@ -51,7 +51,7 @@
 
 /**
  * Returns the digit as a number from the resistor color code
- * @param {string} color - the
+ * @param {string} color - the color whose corresponding digit must be determined
  * @returns {number} - the digit corresponding to the color
  * example: 'black' => 0
  * example: 'red' => 2
